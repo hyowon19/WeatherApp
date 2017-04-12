@@ -89,6 +89,7 @@ ul.weather-data{
   display: flex;
   flex-direction: row;
   justify-content: center;
+  flex-wrap: wrap;
   text-transform: capitalize;
   padding:0;
   text-align:center;
@@ -101,8 +102,8 @@ ul.weather-data{
   justify-content: space-around;
   color: white;
   align-items: flex-start;
-  margin: 3em;
-  width: 20%;
+  margin: 1.55em;
+  width: 15%;
 }
 
 .li-summary h2, .li-temperature h2, .li-nearestStormDistance h2, .li-windSpeed h2, .li-visibility h2 {
